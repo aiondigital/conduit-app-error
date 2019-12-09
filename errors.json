@@ -189,6 +189,12 @@
     "name": "ERR_INVALID_PATH",
     "code": "9000",
     "description": "Invalid base route",
-    "status": 2000
+    "status": "200"
+  },
+  "ERR_INVALID_SERVICE": {
+    "name": "ERR_INVALID_SERVICE",
+    "code": "9034",
+    "description": "Unable to process this request",
+    "status": "200"
   }
 }
