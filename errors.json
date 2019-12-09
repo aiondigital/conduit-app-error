@@ -184,5 +184,11 @@
     "code": "9001",
     "description": "Internal server error",
     "status": "200"
+  },
+  "ERR_INVALID_PATH": {
+    "name": "ERR_INVALID_PATH",
+    "code": "9000",
+    "description": "Invalid base route",
+    "status": 2000
   }
 }
