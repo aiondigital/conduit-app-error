@@ -1,0 +1,188 @@
+{
+    "ERR_CUSTOMER_SERVICE": {
+      "name": "ERR_CUSTOMER_SERVICE",
+      "code": "9001",
+      "description": "Internal server error",
+      "status": "200"
+    },
+    "CUSTOMER_REQUIRED": {
+      "name": "CUSTOMER_REQUIRED",
+      "code": "9002",
+      "description": "Customer can't be blank",
+      "status": "200"
+    },
+    "CUSTOMER_EMAIL_REQUIRED": {
+      "name": "CUSTOMER_EMAIL_REQUIRED",
+      "code": "9003",
+      "description": "Email can't be blank",
+      "status": "200"
+    },
+    "CUSTOMER_MOBILENUMBER_REQUIRED": {
+      "name": "CUSTOMER_MOBILENUMBER_REQUIRED",
+      "code": "9004",
+      "description": "Mobile Number is required",
+      "status": "200"
+    },
+    "CUSTOMER_USERNAME_REQUIRED": {
+      "name": "CUSTOMER_USERNAME_REQUIRED",
+      "code": "9005",
+      "description": "\"userName\" is required",
+      "status": "200"
+    },
+    "CUSTOMER_PASSWORD_EMPTY": {
+      "name": "CUSTOMER_PASSWORD_EMPTY",
+      "code": "9013",
+      "description": "\"password\" is not allowed to be empty",
+      "status": "200"
+    },
+    "CUSTOMER_PASSWORD_EMPTY_BASE": {
+      "name": "CUSTOMER_PASSWORD_EMPTY_BASE",
+      "code": "9014",
+      "description": "\"password\" with value \"\" fails to match the required pattern: /^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[!@#\\$%\\^&\\*])\\S{7,14}$/",
+      "status": "200"
+    },
+    "CUSTOMER_PASSWORD_REQUIRED": {
+      "name": "CUSTOMER_PASSWORD_REQUIRED",
+      "code": "9015",
+      "description": "\"password\" is required",
+      "status": "200"
+    },
+    "CUSTOMER_EMAIL_EMAIL": {
+      "name": "CUSTOMER_EMAIL_INVALID",
+      "code": "9016",
+      "description": "Invalid Email",
+      "status": "200"
+    },
+    "CUSTOMER_USERNAME_BASE": {
+      "name": "CUSTOMER_USERNAME_INVALID",
+      "code": "9017",
+      "description": "Invalid Username",
+      "status": "200"
+    },
+    "CUSTOMER_NOT_FOUND": {
+      "name": "CUSTOMER_NOT_FOUND",
+      "code": "9018",
+      "description": "Customer Not Found",
+      "status": "200"
+    },
+    "CUSTOMER_MOBILENUMBER_PHONENUMBER": {
+      "name": "CUSTOMER_MOBILENUMBER_INVALID",
+      "code": "9018",
+      "description": "Customer Not Found",
+      "status": "200"
+    },
+    "INVALID_CUSTOMER_EMAIL_OR_PASSWORD": {
+      "name": "INVALID_CUSTOMER_EMAIL_OR_PASSWORD",
+      "code": "9019",
+      "description": "Invalid email or password",
+      "status": "200"
+    },
+    "CUSTOMER_FIRSTNAME_MAX": {
+      "name": "CUSTOMER_FIRSTNAME_MAX",
+      "code": "9020",
+      "description": "First name length exceed the limit",
+      "status": "200"
+    },
+    "CUSTOMER_LASTNAME_MAX": {
+      "name": "CUSTOMER_LASTNAME_MAX",
+      "code": "9021",
+      "description": "Last name length exceed the limit",
+      "status": "200"
+    },
+    "CUSTOMER_FULLNAME_MAX": {
+      "name": "CUSTOMER_FULLNAME_MAX",
+      "code": "9022",
+      "description": "Full name length exceed the limit",
+      "status": "200"
+    },
+    "CUSTOMER_BIRTHDATE_BASE": {
+      "name": "CUSTOMER_BIRTHDATE_INVALID",
+      "code": "9023",
+      "description": "Date of birth is invalid",
+      "status": "200"
+    },
+    "ERR_ADDRESS_SERVICE": {
+      "name": "ERR_ADDRESS_SERVICE",
+      "code": "9024",
+      "description": "Internal server error",
+      "status": "200"
+    },
+    "TOKEN_INVALID": {
+      "name": "TOKEN_INVALID",
+      "code": "9025",
+      "description": "Token is invalid",
+      "status": "200"
+    },
+    "ADDRESS_COUNTRY_ALLOWONLY": {
+      "name": "ADDRESS_COUNTRY_INVALID",
+      "code": "9026",
+      "description": "Country is invalid",
+      "status": "200"
+    },
+    "ADDRESS_TYPE_ALLOWONLY": {
+      "name": "ADDRESS_TYPE_INVALID",
+      "code": "9027",
+      "description": "Address type is invalid",
+      "status": "200"
+    },
+    "UID_REQUIRED": {
+      "name": "UID_INVALID",
+      "code": "9028",
+      "description": "uid is invalid",
+      "status": "200"
+    },
+    "ADDRESS_REQUIRED": {
+      "name": "ADDRESS_REQUIRED",
+      "code": "9029",
+      "description": "address is required",
+      "status": "200"
+    },
+    "ADDRESS_TYPE_REQUIRED": {
+      "name": "ADDRESS_TYPE_REQUIRED",
+      "code": "9030",
+      "description": "address type is required",
+      "status": "200"
+    },
+    "PARAMS_UID_REQUIRED": {
+      "name": "PARAMS_UID_REQUIRED",
+      "code": "9031",
+      "description": "uid is required",
+      "status": "200"
+    },
+    "PARAMS_ADDRESSID_GUID": {
+      "name": "PARAMS_UID_INVALID",
+      "code": "9032",
+      "description": "uid is invalid",
+      "status": "200"
+    },
+    "ADDRESSID_GUID": {
+      "name": "PARAMS_UID_INVALID",
+      "code": "9032",
+      "description": "uid is invalid",
+      "status": "200"
+    },
+    "CUSTOMER_AUTH_TOKEN_REQUIRED": {
+      "name": "CUSTOMER_AUTH_TOKEN_REQUIRED",
+      "code": "9033",
+      "description": "Authorization Token can't be blank.",
+      "status": "200"
+    },
+    "ADDRESS_NOT_FOUND": {
+      "name": "ADDRESS_NOT_FOUND",
+      "code": "9034",
+      "description": "Unable to find address",
+      "status": "200"
+    },
+    "CUSTOMER_EXIST": {
+      "name": "CUSTOMER_EXIST",
+      "code": "9035",
+      "description": "Customer with this username already exist.",
+      "status": "200"
+    },
+    "INVALID_CUSTOMER_USERNAME_OR_PASSWORD": {
+      "name": "INVALID_CUSTOMER_USERNAME_OR_PASSWORD",
+      "code": "9036",
+      "description": "Invalid username or password",
+      "status": "200"
+    }
+  }
