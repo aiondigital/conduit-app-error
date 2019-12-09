@@ -1,6 +1,6 @@
 {
-  "name": "@conduit/app-error",
-  "version": "1.0.0",
+  "name": "conduit-app-error",
+  "version": "1.0.1",
   "description": "This is package to manage exception handling",
   "main": "index.js",
   "scripts": {
