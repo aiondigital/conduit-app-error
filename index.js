@@ -1,6 +1,5 @@
-const path = require('path');
+const errors = require('./errors.json');
 
-const errors = require(path.join(process.cwd(), 'errors.json'));
 class AppError extends Error {
     constructor(type = 'SERVER_ERROR', params) {
         super(params);
