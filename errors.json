@@ -1,200 +1,467 @@
 {
   "ERR_CUSTOMER_SERVICE": {
     "name": "ERR_CUSTOMER_SERVICE",
-    "code": "9001",
-    "description": "Testing message",
+    "code": 9001,
+    "description": {
+      "en": "Internal server error",
+      "ar": "أيون الرقمية"
+    },
     "status": "200"
   },
   "CUSTOMER_REQUIRED": {
     "name": "CUSTOMER_REQUIRED",
-    "code": "9002",
-    "description": "Customer can't be blank",
+    "code": 9002,
+    "description": {
+      "en": "Customer can't be blank",
+      "ar": "أيون الرقمية"
+    },
     "status": "200"
   },
   "CUSTOMER_EMAIL_REQUIRED": {
     "name": "CUSTOMER_EMAIL_REQUIRED",
-    "code": "9010",
-    "description": "\"email\" is required",
+    "code": 9003,
+    "description": {
+      "en": "Email can't be blank.",
+      "ar": "أيون الرقمية"
+    },
     "status": "200"
   },
   "CUSTOMER_MOBILENUMBER_REQUIRED": {
     "name": "CUSTOMER_MOBILENUMBER_REQUIRED",
-    "code": "9011",
-    "description": "\"mobileNumber\" is required",
+    "code": 9004,
+    "description": {
+      "en": "Phone number can't be blank",
+      "ar": "أيون الرقمية"
+    },
     "status": "200"
   },
   "CUSTOMER_USERNAME_REQUIRED": {
     "name": "CUSTOMER_USERNAME_REQUIRED",
-    "code": "9012",
-    "description": "\"userName\" is required",
-    "status": "200"
-  },
-  "CUSTOMER_PASSWORD_EMPTY": {
-    "name": "CUSTOMER_PASSWORD_EMPTY",
-    "code": "9013",
-    "description": "\"password\" is not allowed to be empty",
+    "code": 9005,
+    "description": {
+      "en": "Username can't be blank",
+      "ar": "أيون الرقمية"
+    },
     "status": "200"
   },
   "CUSTOMER_PASSWORD_EMPTY_BASE": {
     "name": "CUSTOMER_PASSWORD_EMPTY_BASE",
-    "code": "9014",
-    "description": "\"password\" with value \"\" fails to match the required pattern: /^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[!@#\\$%\\^&\\*])\\S{7,14}$/",
+    "code": 9007,
+    "description": {
+      "en": "The password does not meet the  password policy requirements.",
+      "ar": "أيون الرقمية"
+    },
     "status": "200"
   },
   "CUSTOMER_PASSWORD_REQUIRED": {
     "name": "CUSTOMER_PASSWORD_REQUIRED",
-    "code": "9015",
-    "description": "\"password\" is required",
+    "code": 9008,
+    "description": {
+      "en": "Password can't be blank",
+      "ar": "أيون الرقمية"
+    },
     "status": "200"
   },
   "CUSTOMER_EMAIL_EMAIL": {
     "name": "CUSTOMER_EMAIL_INVALID",
-    "code": "9016",
-    "description": "Invalid Email",
+    "code": 9009,
+    "description": {
+      "en": "The email address is invalid",
+      "ar": "أيون الرقمية"
+    },
     "status": "200"
   },
   "CUSTOMER_USERNAME_BASE": {
     "name": "CUSTOMER_USERNAME_INVALID",
-    "code": "9017",
-    "description": "Invalid Username",
+    "code": 9010,
+    "description": {
+      "en": "The username is invalid",
+      "ar": "أيون الرقمية"
+    },
     "status": "200"
   },
   "CUSTOMER_NOT_FOUND": {
     "name": "CUSTOMER_NOT_FOUND",
-    "code": "9018",
-    "description": "Customer Not Found",
+    "code": 9011,
+    "description": {
+      "en": "Customer record not found",
+      "ar": "أيون الرقمية"
+    },
     "status": "200"
   },
   "CUSTOMER_MOBILENUMBER_PHONENUMBER": {
     "name": "CUSTOMER_MOBILENUMBER_INVALID",
-    "code": "9018",
-    "description": "Customer Not Found",
+    "code": 9012,
+    "description": {
+      "en": "The phone number is  invalid",
+      "ar": "أيون الرقمية"
+    },
     "status": "200"
   },
   "INVALID_CUSTOMER_EMAIL_OR_PASSWORD": {
     "name": "INVALID_CUSTOMER_EMAIL_OR_PASSWORD",
-    "code": "9019",
-    "description": "Invalid email or password",
+    "code": 9013,
+    "description": {
+      "en": "Email or password is incorrect",
+      "ar": "أيون الرقمية"
+    },
     "status": "200"
   },
   "CUSTOMER_FIRSTNAME_MAX": {
     "name": "CUSTOMER_FIRSTNAME_MAX",
-    "code": "9020",
-    "description": "First name length exceed the limit",
+    "code": 9014,
+    "description": {
+      "en": "First name length exceed the maximum limit",
+      "ar": "أيون الرقمية"
+    },
     "status": "200"
   },
   "CUSTOMER_LASTNAME_MAX": {
     "name": "CUSTOMER_LASTNAME_MAX",
-    "code": "9021",
-    "description": "Last name length exceed the limit",
+    "code": 9015,
+    "description": {
+      "en": "Last name length exceed the maximum limit",
+      "ar": "أيون الرقمية"
+    },
     "status": "200"
   },
   "CUSTOMER_FULLNAME_MAX": {
     "name": "CUSTOMER_FULLNAME_MAX",
-    "code": "9022",
-    "description": "Full name length exceed the limit",
+    "code": 9016,
+    "description": {
+      "en": "Full name length exceed the maximum limit",
+      "ar": "أيون الرقمية"
+    },
     "status": "200"
   },
   "CUSTOMER_BIRTHDATE_BASE": {
     "name": "CUSTOMER_BIRTHDATE_INVALID",
-    "code": "9023",
-    "description": "Date of birth is invalid",
+    "code": 9017,
+    "description": {
+      "en": "The date of birth is invalid",
+      "ar": "أيون الرقمية"
+    },
     "status": "200"
   },
   "ERR_ADDRESS_SERVICE": {
     "name": "ERR_ADDRESS_SERVICE",
-    "code": "9024",
-    "description": "Testing message",
+    "code": 9018,
+    "description": {
+      "en": "Internal server error",
+      "ar": "أيون الرقمية"
+    },
     "status": "200"
   },
   "TOKEN_INVALID": {
     "name": "TOKEN_INVALID",
-    "code": "9025",
-    "description": "Token is invalid",
+    "code": 9019,
+    "description": {
+      "en": "The token is invalid",
+      "ar": "أيون الرقمية"
+    },
     "status": "200"
   },
   "ADDRESS_COUNTRY_ALLOWONLY": {
     "name": "ADDRESS_COUNTRY_INVALID",
-    "code": "9026",
-    "description": "Country is invalid",
+    "code": 9020,
+    "description": {
+      "en": "The country is invalid",
+      "ar": "أيون الرقمية"
+    },
     "status": "200"
   },
   "ADDRESS_TYPE_ALLOWONLY": {
     "name": "ADDRESS_TYPE_INVALID",
-    "code": "9027",
-    "description": "Address type is invalid",
+    "code": 9021,
+    "description": {
+      "en": "The address type is invalid",
+      "ar": "أيون الرقمية"
+    },
     "status": "200"
   },
   "UID_REQUIRED": {
     "name": "UID_INVALID",
-    "code": "9028",
-    "description": "uid is invalid",
+    "code": 9022,
+    "description": {
+      "en": "The uid is invalid",
+      "ar": "أيون الرقمية"
+    },
     "status": "200"
   },
   "ADDRESS_REQUIRED": {
     "name": "ADDRESS_REQUIRED",
-    "code": "9029",
-    "description": "address is required",
+    "code": 9023,
+    "description": {
+      "en": " Address can't be blank.",
+      "ar": "أيون الرقمية"
+    },
     "status": "200"
   },
   "ADDRESS_TYPE_REQUIRED": {
     "name": "ADDRESS_TYPE_REQUIRED",
-    "code": "9030",
-    "description": "address type is required",
+    "code": 9024,
+    "description": {
+      "en": "Address type can't be blank.",
+      "ar": "أيون الرقمية"
+    },
     "status": "200"
   },
   "PARAMS_UID_REQUIRED": {
     "name": "PARAMS_UID_REQUIRED",
-    "code": "9031",
-    "description": "uid is required",
+    "code": 9025,
+    "description": {
+      "en": "uid can't be blank.",
+      "ar": "أيون الرقمية"
+    },
     "status": "200"
   },
   "PARAMS_ADDRESSID_GUID": {
     "name": "PARAMS_UID_INVALID",
-    "code": "9032",
-    "description": "uid is invalid",
+    "code": 9026,
+    "description": {
+      "en": "uid is invalid",
+      "ar": "أيون الرقمية"
+    },
     "status": "200"
   },
-  "ADDRESSID_GUID": {
-    "name": "PARAMS_UID_INVALID",
-    "code": "9032",
-    "description": "uid is invalid",
+  "CUSTOMER_EXIST": {
+    "name": "CUSTOMER_EXIST",
+    "code": 9027,
+    "description": {
+      "en": "Customer with this username already exist.",
+      "ar": "أيون الرقمية"
+    },
+    "status": "200"
+  },
+  "INVALID_CUSTOMER_USERNAME_OR_PASSWORD": {
+    "name": "INVALID_CUSTOMER_USERNAME_OR_PASSWORD",
+    "code": 9028,
+    "description": {
+      "en": "Customer username or password is not correct.",
+      "ar": "أيون الرقمية"
+    },
+    "status": "200"
+  },
+  "AUTH_TOKEN_REQUIRED": {
+    "name": "AUTH_TOKEN_REQUIRED",
+    "code": 9029,
+    "description": {
+      "en": "Authorization Token can't be blank.",
+      "ar": "أيون الرقمية"
+    },
     "status": "200"
   },
   "CUSTOMER_AUTH_TOKEN_REQUIRED": {
     "name": "CUSTOMER_AUTH_TOKEN_REQUIRED",
-    "code": "9033",
-    "description": "Authorization Token can't be blank.",
+    "code": 8008,
+    "description": {
+      "en": "Authorization Token can't be blank.",
+      "ar": "أيون الرقمية"
+    },
     "status": "200"
   },
-  "ADDRESS_NOT_FOUND": {
-    "name": "ADDRESS_NOT_FOUND",
-    "code": "9034",
-    "description": "Unable to find address",
+  "ASCUSER_USERNAME_REQUIRED": {
+    "name": "ASCUSER_USERNAME_REQUIRED",
+    "code": 9031,
+    "description": {
+      "en": "Username can't be blank",
+      "ar": "أيون الرقمية"
+    },
     "status": "200"
   },
-  "ERR_CUSTOMER_SERVICE": {
-    "name": "ERR_CUSTOMER_SERVICE",
-    "code": "9001",
-    "description": "Internal server error",
+  "ASCUSER_PASSWORD_REQUIRED": {
+    "name": "ASCUSER_PASSWORD_REQUIRED",
+    "code": 9032,
+    "description": {
+      "en": "Password can't be blank",
+      "ar": "أيون الرقمية"
+    },
+    "status": "200"
+  },
+  "undefined": {
+    "description": {
+      "ar": "أيون الرقمية"
+    },
+    "status": "200"
+  },
+  "ERR_IDENTITYX_SERVICE": {
+    "name": "ERR_IDENTITYX_SERVICE",
+    "code": 8000,
+    "description": {
+      "en": "Internal server error",
+      "ar": "أيون الرقمية"
+    },
+    "status": "200"
+  },
+  "USERID_REQUIRED": {
+    "name": "USERID_REQUIRED",
+    "code": 8001,
+    "description": {
+      "en": "User id is required",
+      "ar": "أيون الرقمية"
+    },
+    "status": "200"
+  },
+  "USERID_GUID": {
+    "name": "USERID_INVALID",
+    "code": 8002,
+    "description": {
+      "en": "User id must be a valid GUID",
+      "ar": "أيون الرقمية"
+    },
     "status": "200"
   },
   "ERR_DAON_USER_EXIST": {
     "name": "ERR_DAON_USER_EXIST",
-    "code": "9001",
-    "description": "Internal server error",
+    "code": 8003,
+    "description": {
+      "en": "User with this id already exists.",
+      "ar": "أيون الرقمية"
+    },
+    "status": "200"
+  },
+  "ERR_IDENTITYX_USER_SERVICE": {
+    "name": "ERR_IDENTITYX_USER_SERVICE",
+    "code": 8004,
+    "description": {
+      "en": "Internal server error",
+      "ar": "أيون الرقمية"
+    },
+    "status": "200"
+  },
+  "FORMAT_REQUIRED": {
+    "name": "FORMAT_REQUIRED",
+    "code": 8005,
+    "description": {
+      "en": "Format type can't be blank.",
+      "ar": "أيون الرقمية"
+    },
+    "status": "200"
+  },
+  "TYPE_REQUIRED": {
+    "name": "TYPE_REQUIRED",
+    "code": 8006,
+    "description": {
+      "en": "Type can't be blank.",
+      "ar": "أيون الرقمية"
+    },
+    "status": "200"
+  },
+  "FILE_REQUIRED": {
+    "name": "FILE_REQUIRED",
+    "code": 8007,
+    "description": {
+      "en": "File can't be blank.",
+      "ar": "أيون الرقمية"
+    },
+    "status": "200"
+  },
+  "INVALID_BASE64_FORMAT": {
+    "name": "INVALID_BASE64_FORMAT",
+    "code": 8009,
+    "description": {
+      "en": "The base64 is invalid",
+      "ar": "أيون الرقمية"
+    },
+    "status": "200"
+  },
+  "TYPE_ALLOWONLY": {
+    "name": "TYPE_ALLOWONLY",
+    "code": 8010,
+    "description": {
+      "en": "Type must be one of [civilId-back, selfie, civilId-front]",
+      "ar": "أيون الرقمية"
+    },
+    "status": "200"
+  },
+  "ERR_IDENTITYX_IMAGE_NOT_PROCESSED": {
+    "name": "ERR_IDENTITYX_IMAGE_NOT_PROCESSED",
+    "code": 8011,
+    "description": {
+      "en": "Could not process image.",
+      "ar": "أيون الرقمية"
+    },
+    "status": "200"
+  },
+  "INVALID_DOCUMENT": {
+    "name": "INVALID_DOCUMENT",
+    "code": 8012,
+    "description": {
+      "en": "The document is invalid",
+      "ar": "أيون الرقمية"
+    },
     "status": "200"
   },
   "ERR_INVALID_PATH": {
     "name": "ERR_INVALID_PATH",
-    "code": "9000",
-    "description": "Invalid base route",
+    "code": 9000,
+    "description": {
+      "en": " Resource Path is invalid",
+      "ar": "أيون الرقمية"
+    },
     "status": "200"
   },
   "ERR_INVALID_SERVICE": {
     "name": "ERR_INVALID_SERVICE",
-    "code": "9034",
-    "description": "Unable to process this request",
+    "code": 9034,
+    "description": {
+      "en": "Unable to porcess this request. ",
+      "ar": "أيون الرقمية"
+    },
+    "status": "200"
+  },
+  "X-TRANS-ID_REQUIRED": {
+    "name": "X_TRANS_ID_REQUIRED",
+    "code": 6001,
+    "description": {
+      "en": "x-trans-id is required in the header.",
+      "ar": "أيون الرقمية"
+    },
+    "status": "200"
+  },
+  "CONTENT-TYPE_REQUIRED": {
+    "name": "CONTENT_TYPE_REQUIRED",
+    "code": 6002,
+    "description": {
+      "en": "content type can't be blank",
+      "ar": "أيون الرقمية"
+    },
+    "status": "200"
+  },
+  "ERR_OTP_SERVICE": {
+    "name": "ERR_OTP_SERVICE",
+    "code": 7000,
+    "description": {
+      "en": "Internal server error",
+      "ar": "أيون الرقمية"
+    },
+    "status": "200"
+  },
+  "INVALID_OTP_CODE": {
+    "name": "INVALID_OTP_CODE",
+    "code": 7001,
+    "description": {
+      "en": "Invalid OTP code",
+      "ar": "أيون الرقمية"
+    },
+    "status": "200"
+  },
+  "ERR_EMAIL_SERVICE": {
+    "name": "ERR_EMAIL_SERVICE",
+    "code": 7002,
+    "description": {
+      "en": "Error in email service.",
+      "ar": "أيون الرقمية"
+    },
+    "status": "200"
+  },
+  "EMAIL_ALREADY_VERIFIED": {
+    "name": "EMAIL_ALREADY_VERIFIED",
+    "code": 7003,
+    "description": {
+      "en": "Email is already verified.",
+      "ar": "أيون الرقمية"
+    },
     "status": "200"
   }
 }
