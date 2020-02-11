@@ -14,6 +14,7 @@ class AppError extends Error {
       this.status = errors[type].status;
       this.date = new Date();
     } else {
+      this.name = type;
       this.code = type;
       this.status = 200;
       this.description = params;
