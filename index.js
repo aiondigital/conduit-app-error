@@ -9,7 +9,7 @@ class AppError extends Error {
     if (errors[type]) {
       this.name = errors[type].name;
       this.description =
-        params.message || errors[type].description[params.lang || "en"];
+        params ? params.message : '--';
       this.code = errors[type].code;
       this.status = errors[type].status;
       this.date = new Date();
@@ -17,6 +17,7 @@ class AppError extends Error {
       this.name = type;
       this.code = type;
       this.status = 200;
+      this.date = new Date();
       this.description = params;
     }
   }
