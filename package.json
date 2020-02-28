@@ -1,6 +1,6 @@
 {
   "name": "conduit-app-error",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "This is conduit custom extended error handler",
   "main": "index.js",
   "scripts": {

@@ -3,8 +3,8 @@
     "name": "ERR_CUSTOMER_SERVICE",
     "code": 9001,
     "description": {
-      "en": "Internal server error",
-      "ar": "أيون الرقمية"
+      "en": "System cannot process the request",
+      "ar": "أيون الرقمية\r\r\n"
     },
     "status": "200"
   },
@@ -12,7 +12,7 @@
     "name": "CUSTOMER_REQUIRED",
     "code": 9002,
     "description": {
-      "en": "Customer can't be blank",
+      "en": "Customer can not be blank",
       "ar": "أيون الرقمية"
     },
     "status": "200"
@@ -21,7 +21,7 @@
     "name": "CUSTOMER_EMAIL_REQUIRED",
     "code": 9003,
     "description": {
-      "en": "Email can't be blank.",
+      "en": "Email can not be blank.",
       "ar": "أيون الرقمية"
     },
     "status": "200"
@@ -30,7 +30,7 @@
     "name": "CUSTOMER_MOBILENUMBER_REQUIRED",
     "code": 9004,
     "description": {
-      "en": "Phone number can't be blank",
+      "en": "Phone number can not be blank",
       "ar": "أيون الرقمية"
     },
     "status": "200"
@@ -39,7 +39,7 @@
     "name": "CUSTOMER_USERNAME_REQUIRED",
     "code": 9005,
     "description": {
-      "en": "Username can't be blank",
+      "en": "Username can not be blank",
       "ar": "أيون الرقمية"
     },
     "status": "200"
@@ -57,7 +57,7 @@
     "name": "CUSTOMER_PASSWORD_REQUIRED",
     "code": 9008,
     "description": {
-      "en": "Password can't be blank",
+      "en": "Password can not be blank",
       "ar": "أيون الرقمية"
     },
     "status": "200"
@@ -75,7 +75,7 @@
     "name": "CUSTOMER_USERNAME_INVALID",
     "code": 9010,
     "description": {
-      "en": "The username is invalid",
+      "en": "Username does not match our username policy.",
       "ar": "أيون الرقمية"
     },
     "status": "200"
@@ -98,20 +98,11 @@
     },
     "status": "200"
   },
-  "INVALID_CUSTOMER_EMAIL_OR_PASSWORD": {
-    "name": "INVALID_CUSTOMER_EMAIL_OR_PASSWORD",
-    "code": 9013,
-    "description": {
-      "en": "Email or password is incorrect",
-      "ar": "أيون الرقمية"
-    },
-    "status": "200"
-  },
   "CUSTOMER_FIRSTNAME_MAX": {
     "name": "CUSTOMER_FIRSTNAME_MAX",
     "code": 9014,
     "description": {
-      "en": "First name length exceed the maximum limit",
+      "en": "First name length exceed the maximum limit of chatacters allowed",
       "ar": "أيون الرقمية"
     },
     "status": "200"
@@ -120,7 +111,7 @@
     "name": "CUSTOMER_LASTNAME_MAX",
     "code": 9015,
     "description": {
-      "en": "Last name length exceed the maximum limit",
+      "en": "Last name length exceed the maximum limit of chatacters allowed",
       "ar": "أيون الرقمية"
     },
     "status": "200"
@@ -129,7 +120,7 @@
     "name": "CUSTOMER_FULLNAME_MAX",
     "code": 9016,
     "description": {
-      "en": "Full name length exceed the maximum limit",
+      "en": "Full name length exceed the maximum limit of chatacters allowed",
       "ar": "أيون الرقمية"
     },
     "status": "200"
@@ -147,18 +138,13 @@
     "name": "ERR_ADDRESS_SERVICE",
     "code": 9018,
     "description": {
-      "en": "Internal server error",
+      "en": "System cannot process the request",
       "ar": "أيون الرقمية"
     },
     "status": "200"
   },
-  "TOKEN_INVALID": {
-    "name": "TOKEN_INVALID",
-    "code": 9019,
-    "description": {
-      "en": "The token is invalid",
-      "ar": "أيون الرقمية"
-    },
+  "undefined": {
+    "description": {},
     "status": "200"
   },
   "ADDRESS_COUNTRY_ALLOWONLY": {
@@ -192,7 +178,7 @@
     "name": "ADDRESS_REQUIRED",
     "code": 9023,
     "description": {
-      "en": " Address can't be blank.",
+      "en": " Address can not be blank.",
       "ar": "أيون الرقمية"
     },
     "status": "200"
@@ -201,7 +187,7 @@
     "name": "ADDRESS_TYPE_REQUIRED",
     "code": 9024,
     "description": {
-      "en": "Address type can't be blank.",
+      "en": "Address type can not be blank.",
       "ar": "أيون الرقمية"
     },
     "status": "200"
@@ -210,7 +196,7 @@
     "name": "PARAMS_UID_REQUIRED",
     "code": 9025,
     "description": {
-      "en": "uid can't be blank.",
+      "en": "uid can not be blank.",
       "ar": "أيون الرقمية"
     },
     "status": "200"
@@ -233,29 +219,20 @@
     },
     "status": "200"
   },
-  "INVALID_CUSTOMER_USERNAME_OR_PASSWORD": {
-    "name": "INVALID_CUSTOMER_USERNAME_OR_PASSWORD",
-    "code": 9028,
-    "description": {
-      "en": "Customer username or password is not correct.",
-      "ar": "أيون الرقمية"
-    },
-    "status": "200"
-  },
   "AUTH_TOKEN_REQUIRED": {
     "name": "AUTH_TOKEN_REQUIRED",
     "code": 9029,
     "description": {
-      "en": "Authorization Token can't be blank.",
+      "en": "Authorization Token can not be blank.",
       "ar": "أيون الرقمية"
     },
     "status": "200"
   },
   "CUSTOMER_AUTH_TOKEN_REQUIRED": {
-    "name": "CUSTOMER_AUTH_TOKEN_REQUIRED",
-    "code": 8008,
+    "name": "AUTH_TOKEN_REQUIRED",
+    "code": 9029,
     "description": {
-      "en": "Authorization Token can't be blank.",
+      "en": "Authorization Token can not be blank.",
       "ar": "أيون الرقمية"
     },
     "status": "200"
@@ -264,23 +241,129 @@
     "name": "ASCUSER_USERNAME_REQUIRED",
     "code": 9031,
     "description": {
-      "en": "Username can't be blank",
+      "en": "Username can not be blank",
       "ar": "أيون الرقمية"
     },
     "status": "200"
   },
   "ASCUSER_PASSWORD_REQUIRED": {
-    "name": "ASCUSER_PASSWORD_REQUIRED",
-    "code": 9032,
+    "name": "PASSWORD_REQUIRED",
+    "code": 5003,
     "description": {
-      "en": "Password can't be blank",
+      "en": "Password can not be blank.",
       "ar": "أيون الرقمية"
     },
     "status": "200"
   },
-  "undefined": {
+  "ADDRESS_ADDRESSABLEID_REQUIRED": {
+    "name": "ADDRESSABLEID_REQUIRED",
+    "code": 9033,
     "description": {
-      "ar": "أيون الرقمية"
+      "en": "Addressable id can not be blank."
+    },
+    "status": "200"
+  },
+  "ADDRESS_ADDRESSABLETYPE_REQUIRED": {
+    "name": "ADDRESSABLETYPE_REQUIRED",
+    "code": 9034,
+    "description": {
+      "en": "Addressable type can not be blank."
+    },
+    "status": "200"
+  },
+  "ADDRESS_ADDRESSABLETYPE_ALLOWONLY": {
+    "name": "ADDRESSABLETYPE_ALLOWONLY",
+    "code": 9035,
+    "description": {
+      "en": "Addressable type must be one of [CT_CUSTOMER]"
+    },
+    "status": "200"
+  },
+  "ADDRESS_COUNTRY_INVALID": {
+    "name": "ADDRESS_COUNTRY_INVALID",
+    "code": 9036,
+    "description": {
+      "en": "Country must be one of [KW]"
+    },
+    "status": "200"
+  },
+  "ADDRESS_TYPE_INVALID": {
+    "name": "ADDRESS_TYPE_INVALID",
+    "code": 9037,
+    "description": {
+      "en": "Address type must be one of [secondary, primary]"
+    },
+    "status": "200"
+  },
+  "INVALID_ADDRESSABLE_ENTITY": {
+    "name": "INVALID_ADDRESSABLE_ENTITY",
+    "code": 9038,
+    "description": {
+      "en": "Addressable_id or Addressable_type is not valid."
+    },
+    "status": "200"
+  },
+  "CUSTOMER_PASSWORD_BASE": {
+    "name": "CUSTOMER_PASSWORD_INVALID",
+    "code": 9039,
+    "description": {
+      "en": "Customer password does not match password policy."
+    },
+    "status": "200"
+  },
+  "CUSTOMER_USERNAME_INVALID": {
+    "name": "CUSTOMER_USERNAME_INVALID",
+    "code": 9040,
+    "description": {
+      "en": "Username does not match our username policy."
+    },
+    "status": "200"
+  },
+  "INVALID_CUSTOMER_CREDENTIAL": {
+    "name": "INVALID_CUSTOMER_CREDENTIAL",
+    "code": 9041,
+    "description": {
+      "en": "You need to provide valid credential to resume the process."
+    },
+    "status": "200"
+  },
+  "RESUMPTION_MOBILENUMBER_REQUIRED": {
+    "name": "RESUMPTION_MOBILENUMBER_REQUIRED",
+    "code": 9042,
+    "description": {
+      "en": "You need to provide valid mobile number to resume the process."
+    },
+    "status": "200"
+  },
+  "CUSTOMER_USER_NAME_REQUIRED": {
+    "name": "CUSTOMER_USER_NAME_REQUIRED",
+    "code": 9043,
+    "description": {
+      "en": "Customer use name can not be blank."
+    },
+    "status": "200"
+  },
+  "CUSTOMER_MOBILE_NUMBER_REQUIRED": {
+    "name": "CUSTOMER_MOBILE_NUMBER_REQUIRED",
+    "code": 9044,
+    "description": {
+      "en": "Customer mobile number can not be blank."
+    },
+    "status": "200"
+  },
+  "CUSTOMER_KFHCUSTOMERID_REQUIRED": {
+    "name": "KFHCUSTOMERID_REQUIRED",
+    "code": 4001,
+    "description": {
+      "en": "Kfh customer id can not be blank."
+    },
+    "status": "200"
+  },
+  "INVALID_USERNAME_OR_PASSWORD": {
+    "name": "INVALID_USERNAME_OR_PASSWORD",
+    "code": 9046,
+    "description": {
+      "en": "Invalid username or password."
     },
     "status": "200"
   },
@@ -288,7 +371,7 @@
     "name": "ERR_IDENTITYX_SERVICE",
     "code": 8000,
     "description": {
-      "en": "Internal server error",
+      "en": "System cannot process the request",
       "ar": "أيون الرقمية"
     },
     "status": "200"
@@ -297,7 +380,7 @@
     "name": "USERID_REQUIRED",
     "code": 8001,
     "description": {
-      "en": "User id is required",
+      "en": "User id can not be blank",
       "ar": "أيون الرقمية"
     },
     "status": "200"
@@ -324,34 +407,34 @@
     "name": "ERR_IDENTITYX_USER_SERVICE",
     "code": 8004,
     "description": {
-      "en": "Internal server error",
+      "en": "System cannot process the request",
       "ar": "أيون الرقمية"
     },
     "status": "200"
   },
   "FORMAT_REQUIRED": {
-    "name": "FORMAT_REQUIRED",
+    "name": "ATTACHMENT_FORMAT_REQUIRED",
     "code": 8005,
     "description": {
-      "en": "Format type can't be blank.",
+      "en": "Format type can not be blank.",
       "ar": "أيون الرقمية"
     },
     "status": "200"
   },
   "TYPE_REQUIRED": {
-    "name": "TYPE_REQUIRED",
+    "name": "ATTCHMNET_TYPE_REQUIRED",
     "code": 8006,
     "description": {
-      "en": "Type can't be blank.",
+      "en": "Attachment type can not be blank.",
       "ar": "أيون الرقمية"
     },
     "status": "200"
   },
   "FILE_REQUIRED": {
-    "name": "FILE_REQUIRED",
+    "name": "ATTCHMENT_FILE_REQUIRED",
     "code": 8007,
     "description": {
-      "en": "File can't be blank.",
+      "en": "Attachment file can not be blank.",
       "ar": "أيون الرقمية"
     },
     "status": "200"
@@ -369,7 +452,7 @@
     "name": "TYPE_ALLOWONLY",
     "code": 8010,
     "description": {
-      "en": "Type must be one of [civilId-back, selfie, civilId-front]",
+      "en": "Type can only be one of [civilId-back, selfie, civilId-front]",
       "ar": "أيون الرقمية"
     },
     "status": "200"
@@ -378,7 +461,7 @@
     "name": "ERR_IDENTITYX_IMAGE_NOT_PROCESSED",
     "code": 8011,
     "description": {
-      "en": "Could not process image.",
+      "en": "Image could not be processed",
       "ar": "أيون الرقمية"
     },
     "status": "200"
@@ -392,9 +475,37 @@
     },
     "status": "200"
   },
+  "MUST_BE_KUWAIT_CIVIL_ID": {
+    "name": "MUST_BE_KUWAIT_CIVIL_ID",
+    "code": 8013,
+    "description": {
+      "en": "Must be Kuwait Civil ID"
+    },
+    "status": "200"
+  },
+  "INVALID_CIVIL_ID_CARD": {
+    "name": "INVALID_CIVIL_ID_CARD",
+    "code": 8014,
+    "description": {
+      "en": "Invalid Civil id card"
+    },
+    "status": "200"
+  },
+  "CIVIL_ID_BACK_PROCESSING_FAILED": {
+    "name": "CIVIL_ID_BACK_PROCESSING_FAILED",
+    "code": 8015,
+    "description": {},
+    "status": "200"
+  },
+  "CIVIL_ID_FRONT_PROCESSING_FAILED": {
+    "name": "CIVIL_ID_FRONT_PROCESSING_FAILED",
+    "code": 8016,
+    "description": {},
+    "status": "200"
+  },
   "ERR_INVALID_PATH": {
     "name": "ERR_INVALID_PATH",
-    "code": 9000,
+    "code": 1000,
     "description": {
       "en": " Resource Path is invalid",
       "ar": "أيون الرقمية"
@@ -403,16 +514,16 @@
   },
   "ERR_INVALID_SERVICE": {
     "name": "ERR_INVALID_SERVICE",
-    "code": 9034,
+    "code": 1001,
     "description": {
-      "en": "Unable to porcess this request. ",
+      "en": "System cannot process the request",
       "ar": "أيون الرقمية"
     },
     "status": "200"
   },
   "X-TRANS-ID_REQUIRED": {
     "name": "X_TRANS_ID_REQUIRED",
-    "code": 6001,
+    "code": 1002,
     "description": {
       "en": "x-trans-id is required in the header.",
       "ar": "أيون الرقمية"
@@ -421,10 +532,27 @@
   },
   "CONTENT-TYPE_REQUIRED": {
     "name": "CONTENT_TYPE_REQUIRED",
-    "code": 6002,
+    "code": 1003,
     "description": {
-      "en": "content type can't be blank",
+      "en": "Content type can not be blank",
       "ar": "أيون الرقمية"
+    },
+    "status": "200"
+  },
+  "TOKEN_INVALID": {
+    "name": "TOKEN_INVALID",
+    "code": 1004,
+    "description": {
+      "en": "The token is invalid",
+      "ar": "أيون الرقمية"
+    },
+    "status": "200"
+  },
+  "CUSTOMER_FRONT_CIVIL_ID_MISSING": {
+    "name": "CUSTOMER_FRONT_CIVIL_ID_MISSING",
+    "code": 7006,
+    "description": {
+      "en": "Front civil id is missing"
     },
     "status": "200"
   },
@@ -432,17 +560,16 @@
     "name": "ERR_OTP_SERVICE",
     "code": 7000,
     "description": {
-      "en": "Internal server error",
+      "en": "System cannot process the request",
       "ar": "أيون الرقمية"
     },
     "status": "200"
   },
   "INVALID_OTP_CODE": {
     "name": "INVALID_OTP_CODE",
-    "code": 7001,
+    "code": 3000,
     "description": {
-      "en": "Invalid OTP code",
-      "ar": "أيون الرقمية"
+      "en": "Invalid otp code"
     },
     "status": "200"
   },
@@ -450,7 +577,7 @@
     "name": "ERR_EMAIL_SERVICE",
     "code": 7002,
     "description": {
-      "en": "Error in email service.",
+      "en": "System cannot process the request",
       "ar": "أيون الرقمية"
     },
     "status": "200"
@@ -461,6 +588,667 @@
     "description": {
       "en": "Email is already verified.",
       "ar": "أيون الرقمية"
+    },
+    "status": "200"
+  },
+  "CUSTOMER_SELFIE_MISSING": {
+    "name": "CUSTOMER_SELFIE_MISSING",
+    "code": 7004,
+    "description": {
+      "en": "Customer selfie is missing",
+      "ar": "أيون الرقمية"
+    },
+    "status": "200"
+  },
+  "CUSTOMER_SELFIE_REQUIRED": {
+    "name": "CUSTOMER_SELFIE_REQUIRED",
+    "code": 7005,
+    "description": {
+      "en": "Selfie can not be blank"
+    },
+    "status": "200"
+  },
+  "CUSTOMER_SELFIE_INVALID": {
+    "name": "CUSTOMER_SELFIE_INVALID",
+    "code": 7006,
+    "description": {},
+    "status": "200"
+  },
+  "CUSTOMER_CIVIL_ID_FRONT_MISSING": {
+    "name": "CUSTOMER_CIVIL_ID_FRONT_MISSING",
+    "code": 7007,
+    "description": {},
+    "status": "200"
+  },
+  "CUSTOMER_CIVIL_ID_BACK_MISSING": {
+    "name": "CUSTOMER_CIVIL_ID_BACK_MISSING",
+    "code": 7008,
+    "description": {},
+    "status": "200"
+  },
+  "CUSTOMER_VERIFY_VIA_VIDEO": {
+    "name": "CUSTOMER_VERIFY_VIA_VIDEO",
+    "code": 7009,
+    "description": {},
+    "status": "200"
+  },
+  "CUSTMER_SELFIE_UNMATCHED": {
+    "name": "CUSTMER_SELFIE_UNMATCHED",
+    "code": 7010,
+    "description": {},
+    "status": "200"
+  },
+  "CUSTOMER_LIVENESS_INVALID": {
+    "name": "CUSTOMER_LIVENESS_INVALID",
+    "code": 7011,
+    "description": {
+      "en": "Invalid liveness image"
+    },
+    "status": "200"
+  },
+  "INVALID_UPDATE_REQUEST": {
+    "name": "INVALID_UPDATE_REQUEST",
+    "code": 1000,
+    "description": {
+      "en": "Invalid request to update the record.",
+      "ar": "أيون الرقمية"
+    },
+    "status": "200"
+  },
+  "INVALID_DELETE_REQUEST": {
+    "name": "INVALID_DELETE_REQUEST",
+    "code": 1001,
+    "description": {
+      "en": "Invalid request to delete the record.",
+      "ar": "أيون الرقمية"
+    },
+    "status": "200"
+  },
+  "ERR_AUTH_SERVICE": {
+    "name": "ERR_AUTH_SERVICE",
+    "code": 5000,
+    "description": {
+      "en": "System cannot process the request",
+      "ar": "أيون الرقمية"
+    },
+    "status": "200"
+  },
+  "ASCUSER_REQUIRED": {
+    "name": "ASCUSER_REQUIRED",
+    "code": 5001,
+    "description": {
+      "en": "ascUser can not be blank",
+      "ar": "أيون الرقمية"
+    },
+    "status": "200"
+  },
+  "ASCUSER_USER_NAME_REQUIRED": {
+    "name": "USER_NAME_REQUIRED",
+    "code": 5002,
+    "description": {
+      "en": "Username can not be blank.",
+      "ar": "أيون الرقمية"
+    },
+    "status": "200"
+  },
+  "ASCUSER_FIRST_NAME_REQUIRED": {
+    "name": "FIRST_NAME_REQUIRED",
+    "code": 5004,
+    "description": {
+      "en": "First name can not be blank.",
+      "ar": "أيون الرقمية"
+    },
+    "status": "200"
+  },
+  "ASCUSER_LAST_NAME_REQUIRED": {
+    "name": "LAST_NAME_REQUIRED",
+    "code": 5005,
+    "description": {
+      "en": "Last name can not be blank.",
+      "ar": "أيون الرقمية"
+    },
+    "status": "200"
+  },
+  "ASCUSER_STATUS_REQUIRED": {
+    "name": "STATUS_REQUIRED",
+    "code": 5006,
+    "description": {
+      "en": "Status can not be blank",
+      "ar": "أيون الرقمية"
+    },
+    "status": "200"
+  },
+  "ASCUSER_USER_NAME_MIN": {
+    "name": "ASCUSER_USER_NAME_MIN",
+    "code": 5007,
+    "description": {
+      "en": "User name length must be at least 5 characters long.",
+      "ar": "أيون الرقمية"
+    },
+    "status": "200"
+  },
+  "ASCUSER_USER_NAME_MAX": {
+    "name": "ASCUSER_USER_NAME_MAX",
+    "code": 5008,
+    "description": {
+      "en": "User name length must be less than or equal to 20 characters long.",
+      "ar": "أيون الرقمية"
+    },
+    "status": "200"
+  },
+  "ASCUSER_PASSWORD_MIN": {
+    "name": "ASCUSER_PASSWORD_MIN",
+    "code": 5009,
+    "description": {
+      "en": "Password length must be at least 5 characters long.",
+      "ar": "أيون الرقمية"
+    },
+    "status": "200"
+  },
+  "ASCUSER_PASSWORD_MAX": {
+    "name": "ASCUSER_PASSWORD_MAX",
+    "code": 5010,
+    "description": {
+      "en": "Password length must be less than or equal to 20 characters long",
+      "ar": "أيون الرقمية"
+    },
+    "status": "200"
+  },
+  "ASCROLE_STATUS_ALLOWONLY": {
+    "name": "STATUS_ALLOWONLY",
+    "code": 5011,
+    "description": {
+      "en": "status must be one of [A, I]",
+      "ar": "أيون الرقمية"
+    },
+    "status": "200"
+  },
+  "USER_NOT_FOUND": {
+    "name": "USER_NOT_FOUND",
+    "code": 5012,
+    "description": {
+      "en": "User with this id not found."
+    },
+    "status": "200"
+  },
+  "ERR_ASC_USER_SERVICE": {
+    "name": "ERR_ASC_USER_SERVICE",
+    "code": 6000,
+    "description": {
+      "en": "System cannot process the request",
+      "ar": "أيون الرقمية"
+    },
+    "status": "200"
+  },
+  "ASCROLE_REQUIRED": {
+    "name": "ASCROLE_REQUIRED",
+    "code": 6001,
+    "description": {
+      "en": "ascRole can not be blank",
+      "ar": "أيون الرقمية"
+    },
+    "status": "200"
+  },
+  "ASCROLE_ROLE_NAME_REQUIRED": {
+    "name": "ROLE_NAME_REQUIRED",
+    "code": 6002,
+    "description": {
+      "en": "Role name  can not be blank.",
+      "ar": "أيون الرقمية"
+    },
+    "status": "200"
+  },
+  "ASCROLE_DESCRIPTION_REQUIRED": {
+    "name": "DESCRIPTION_REQUIRED",
+    "code": 6003,
+    "description": {
+      "en": "Description can not be blank.",
+      "ar": "أيون الرقمية"
+    },
+    "status": "200"
+  },
+  "ROLE_NOT_FOUND": {
+    "name": "ROLE_NOT_FOUND",
+    "code": 6004,
+    "description": {
+      "en": "Role with this id not found.",
+      "ar": "أيون الرقمية"
+    },
+    "status": "200"
+  },
+  "ASCRESOURCE_REQUIRED": {
+    "name": "ASCRESOURCE_REQUIRED",
+    "code": 6005,
+    "description": {
+      "en": "ascRole can not be blank.",
+      "ar": "أيون الرقمية"
+    },
+    "status": "200"
+  },
+  "ASCRESOURCE_RESOURCE_NAME_REQUIRED": {
+    "name": "RESOURCE_NAME_REQUIRED",
+    "code": 6006,
+    "description": {
+      "en": "Resource name can not be blank.",
+      "ar": "أيون الرقمية"
+    },
+    "status": "200"
+  },
+  "ASCRESOURCE_MENU_GROUP_REQUIRED": {
+    "name": "MENU_GROUP_REQUIRED",
+    "code": 6007,
+    "description": {
+      "en": "Menu group can not be blank.",
+      "ar": "أيون الرقمية"
+    },
+    "status": "200"
+  },
+  "ASCRESOURCE_MENU_LABEL_REQUIRED": {
+    "name": "MENU_LABEL_REQUIRED",
+    "code": 6008,
+    "description": {
+      "en": "Menu lable can not be blank.",
+      "ar": "أيون الرقمية"
+    },
+    "status": "200"
+  },
+  "ASCRESOURCE_IS_DASHBOARD_ALLOWONLY": {
+    "name": "IS_DASHBOARD_ALLOWONLY",
+    "code": 6009,
+    "description": {
+      "en": "is_dashboard must be one of [Y, N]",
+      "ar": "أيون الرقمية"
+    },
+    "status": "200"
+  },
+  "RESOURCE_NOT_FOUND": {
+    "name": "RESOURCE_NOT_FOUND",
+    "code": 6010,
+    "description": {
+      "en": "Resource with this id not found.",
+      "ar": "أيون الرقمية"
+    },
+    "status": "200"
+  },
+  "ROLE_USER_EXIST": {
+    "name": "ROLE_USER_EXIST",
+    "code": 6011,
+    "description": {
+      "en": "Role against this user already exist.",
+      "ar": "أيون الرقمية"
+    },
+    "status": "200"
+  },
+  "ROLE_RESOURCE_EXIST": {
+    "name": "ROLE_RESOURCE_EXIST",
+    "code": 6012,
+    "description": {
+      "en": "Role against this resource already exist.",
+      "ar": "أيون الرقمية"
+    },
+    "status": "200"
+  },
+  "ERR_ACCOUNT_SERVICE": {
+    "name": "ERR_ACCOUNT_SERVICE",
+    "code": 3000,
+    "description": {
+      "en": "System cannot process the request"
+    },
+    "status": "200"
+  },
+  "CDTGATEWAY_SECURITYTYPE_REQUIRED": {
+    "name": "SECURITYTYPE_REQUIRED",
+    "code": 2001,
+    "description": {
+      "en": "Security type can not be blank."
+    },
+    "status": "200"
+  },
+  "CDTGATEWAY_GATEWAYNAME_REQUIRED": {
+    "name": "GATEWAYNAME_REQUIRED",
+    "code": 2002,
+    "description": {
+      "en": "Gatway name can not be blank."
+    },
+    "status": "200"
+  },
+  "GATEWAYID_GUID": {
+    "name": "GATEWAYID_GUID",
+    "code": 2003,
+    "description": {
+      "en": "Gateway id must be GUID."
+    },
+    "status": "200"
+  },
+  "GATEWAY_NOT_FOUND": {
+    "name": "GATEWAY_NOT_FOUND",
+    "code": 2003,
+    "description": {
+      "en": "Gateway not found."
+    },
+    "status": "200"
+  },
+  "CDTSERVICE_SERVICETYPE_REQUIRED": {
+    "name": "SERVICETYPE_REQUIRED",
+    "code": 2004,
+    "description": {
+      "en": "Service type can not be blank."
+    },
+    "status": "200"
+  },
+  "CDTSERVICE_SERVICENAME_REQUIRED": {
+    "name": "SERVICENAME_REQUIRED",
+    "code": 2005,
+    "description": {
+      "en": "Service name can not be blank."
+    },
+    "status": "200"
+  },
+  "CDTSERVICE_CONTEXTROOT_REQUIRED": {
+    "name": "CONTEXTROOT_REQUIRED",
+    "code": 2006,
+    "description": {
+      "en": "Context root can not be blank."
+    },
+    "status": "200"
+  },
+  "CDTSERVICE_LATESTVERSION_REQUIRED": {
+    "name": "CDTSERVICE_LATESTVERSION_REQUIRED",
+    "code": 2007,
+    "description": {
+      "en": "Latest verion can not be blank."
+    },
+    "status": "200"
+  },
+  "CDTSERVICE_HOSTNAME_REQUIRED": {
+    "name": "CDTSERVICE_HOSTNAME_REQUIRED",
+    "code": 2008,
+    "description": {
+      "en": "Host name can not be blank."
+    },
+    "status": "200"
+  },
+  "CDTSERVICE_ISSECURE_REQUIRED": {
+    "name": "CDTSERVICE_ISSECURE_REQUIRED",
+    "code": 2009,
+    "description": {
+      "en": "Is secure can not be blank."
+    },
+    "status": "200"
+  },
+  "CDTSERVICE_HTTPOPERATION_REQUIRED": {
+    "name": "CDTSERVICE_HTTPOPERATION_REQUIRED",
+    "code": 2010,
+    "description": {
+      "en": "Http operation can not be blank."
+    },
+    "status": "200"
+  },
+  "SERVICE_NOT_FOUND": {
+    "name": "SERVICE_NOT_FOUND",
+    "code": 2011,
+    "description": {
+      "en": "Service not found."
+    },
+    "status": "200"
+  },
+  "CDTCHANNEL_CHANNELNAME_REQUIRED": {
+    "name": "CHANNELNAME_REQUIRED",
+    "code": 2012,
+    "description": {
+      "en": "Channel name can not be blank."
+    },
+    "status": "200"
+  },
+  "CDTCHANNEL_GATEWAYID_REQUIRED": {
+    "name": "GATEWAYID_REQUIRED",
+    "code": 2013,
+    "description": {
+      "en": "Gateway can not be blank."
+    },
+    "status": "200"
+  },
+  "CDTAUTHORITIES_REQUIRED": {
+    "name": "CDTAUTHORITIES_REQUIRED",
+    "code": 2014,
+    "description": {
+      "en": "cdtAuthorities is required."
+    },
+    "status": "200"
+  },
+  "CHANNELID_GUID": {
+    "name": "CHANNELID_GUID",
+    "code": 2014,
+    "description": {
+      "en": "Channel is must be GUID."
+    },
+    "status": "200"
+  },
+  "CDTAUTHORITIES_CHANNELID_REQUIRED": {
+    "name": "CHANNELID_REQUIRED",
+    "code": 2015,
+    "description": {
+      "en": "Channel id can not be blank."
+    },
+    "status": "200"
+  },
+  "SERVICEID_GUID": {
+    "name": "SERVICEID_GUID",
+    "code": 2015,
+    "description": {
+      "en": "Service id must be GUID."
+    },
+    "status": "200"
+  },
+  "CDTAUTHORITIES_SERVICE_REQUIRED": {
+    "name": "SERVICE_REQUIRED",
+    "code": 2016,
+    "description": {
+      "en": "Service can not be blank."
+    },
+    "status": "200"
+  },
+  "CDTAUTHORITIES_SERVICE_MIN": {
+    "name": "CDTAUTHORITIES_SERVICE_MIN",
+    "code": 2017,
+    "description": {
+      "en": "Minimum one service is required."
+    },
+    "status": "200"
+  },
+  "AUTHORITYID_GUID": {
+    "name": "AUTHORITYID_GUID",
+    "code": 2018,
+    "description": {
+      "en": "Authority id must be GUID."
+    },
+    "status": "200"
+  },
+  "CDTAUTHORITY_REQUIRED": {
+    "name": "CDTAUTHORITY_REQUIRED",
+    "code": 2019,
+    "description": {
+      "en": "cdtAuthority can not be blank."
+    },
+    "status": "200"
+  },
+  "SERVICEVERSIONID_GUID": {
+    "name": "SERVICEVERSIONID_GUID",
+    "code": 2022,
+    "description": {
+      "en": "Service version id must be GUID."
+    },
+    "status": "200"
+  },
+  "CDTSERVICEVERSION_REQUIRED": {
+    "name": "CDTSERVICEVERSION_REQUIRED",
+    "code": 2023,
+    "description": {
+      "en": "cdtServiceVersion can not be blank."
+    },
+    "status": "200"
+  },
+  "CDTSERVICEVERSION_CHANGESDESCRIPTION_REQUIRED": {
+    "name": "CHANGESDESCRIPTION_REQUIRED",
+    "code": 2024,
+    "description": {
+      "en": "Changes description can not be blank."
+    },
+    "status": "200"
+  },
+  "CDTSERVICEVERSION_SERVICEVERSION_REQUIRED": {
+    "name": "SERVICEVERSION_REQUIRED",
+    "code": 2025,
+    "description": {
+      "en": "Service version can not be blank."
+    },
+    "status": "200"
+  },
+  "SERVICE_VESION_NOT_FOUND": {
+    "name": "SERVICE_VESION_NOT_FOUND",
+    "code": 2026,
+    "description": {
+      "en": "Service version not found."
+    },
+    "status": "200"
+  },
+  "GATEWAY_CHANNEL_NOT_EXISTS": {
+    "name": "GATEWAY_CHANNEL_NOT_EXISTS",
+    "code": 4004,
+    "description": {
+      "en": "Gateway channels are empty."
+    },
+    "status": "200"
+  },
+  "X_CHANNEL_ID_REQUIRED": {
+    "name": "X_CHANNEL_ID_REQUIRED",
+    "code": 4003,
+    "description": {
+      "en": "x-channel-id can't be blank in the header."
+    },
+    "status": "200"
+  },
+  "INVALID_GATEWAY_CHANNEL": {
+    "name": "INVALID_GATEWAY_CHANNEL",
+    "code": 4002,
+    "description": {
+      "en": "Invalid gateway channel"
+    },
+    "status": "200"
+  },
+  "INVALID_GATEWAY_SERVICE": {
+    "name": "INVALID_GATEWAY_SERVICE",
+    "code": 4005,
+    "description": {
+      "en": "Invalid gateway service"
+    },
+    "status": "200"
+  },
+  "AML_CHECK_FAILED": {
+    "name": "AML_CHECK_FAILED",
+    "code": 6500,
+    "description": {
+      "en": "Aml check failed"
+    },
+    "status": "200"
+  },
+  "KYCINFORMATION_REQUIRED": {
+    "name": "KYCINFORMATION_REQUIRED",
+    "code": 1100,
+    "description": {
+      "en": "Kyc Information can't be blank."
+    },
+    "status": "200"
+  },
+  "AML_CHECK_IS_IN_PROCESSING": {
+    "name": "AML_CHECK_IS_IN_PROCESSING",
+    "code": 6501,
+    "description": {
+      "en": "Aml check is in processing state"
+    },
+    "status": "200"
+  },
+  "ERR_CALLBACK_ALERT_SERVICE": {
+    "name": "ERR_CALLBACK_ALERT_SERVICE",
+    "code": 6502,
+    "description": {},
+    "status": "200"
+  },
+  "INVALID_LIVENESS_IMAGE": {
+    "name": "INVALID_LIVENESS_IMAGE",
+    "code": 6503,
+    "description": {},
+    "status": "200"
+  },
+  "       ERR_CUSTOMER_CORE_BANKING_PROFILE_CREATION\r\r\n": {
+    "name": "      ERR_CUSTOMER_CORE_BANKING_PROFILE_CREATION",
+    "code": 6504,
+    "description": {},
+    "status": "200"
+  },
+  "INVALID_ALERT_REQUEST": {
+    "name": "INVALID_ALERT_REQUEST",
+    "code": 6507,
+    "description": {},
+    "status": "200"
+  },
+  "CDT_API_SECRET_REQUIRED": {
+    "name": "CDT_API_SECRET_REQUIRED",
+    "code": 6508,
+    "description": {},
+    "status": "200"
+  },
+  "CDT_API_KEY_REQUIRED": {
+    "name": "CDT_API_KEY_REQUIRED",
+    "code": 6509,
+    "description": {},
+    "status": "200"
+  },
+  "OTP_REQUIRED": {
+    "name": "OTP_REQUIRED",
+    "code": 4000,
+    "description": {
+      "en": "OTP can't be blank."
+    },
+    "status": "200"
+  },
+  "OTP_CODE_REQUIRED": {
+    "name": "OTP_CODE_REQUIRED",
+    "code": 4001,
+    "description": {
+      "en": "OTP code can't be blank."
+    },
+    "status": "200"
+  },
+  "OTP_CODE_MIN": {
+    "name": "OTP_CODE_MIN",
+    "code": 4002,
+    "description": {
+      "en": "OTP code must be atleast 6 characters long."
+    },
+    "status": "200"
+  },
+  "OTP_CODE_MAX": {
+    "name": "OTP_CODE_MAX",
+    "code": 4003,
+    "description": {
+      "en": "OTP code must be atleast 6 characters long."
+    },
+    "status": "200"
+  },
+  "DUPLICATE_LIVENESS_IMAGE": {
+    "name": "DUPLICATE_LIVENESS_IMAGE",
+    "code": 8080,
+    "description": {
+      "en": "Duplicate Liveness Image"
+    },
+    "status": "200"
+  },
+  "CUSTOMER_IS_UNDERAGE": {
+    "name": "CUSTOMER_IS_UNDERAGE",
+    "code": 8301,
+    "description": {
+      "en": "Customer age is below 16"
     },
     "status": "200"
   }
